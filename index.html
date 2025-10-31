@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【您的科技公司名称】 - 创新未来</title>
+    <style>
+        /* 基础样式，让页面看起来更像一个网站 */
+        body {
+            font-family: 'Arial', 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #1a237e; /* 科技蓝 */
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #8c9eff;
+        }
+
+        .hero {
+            background-color: #e8eaf6; /* 浅蓝背景 */
+            text-align: center;
+            padding: 80px 20px;
+            margin-bottom: 40px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            color: #1a237e;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #448aff; /* 强调蓝 */
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #2962ff;
+        }
+
+        .section {
+            max-width: 1200px;
+            margin: 0 auto 60px;
+            padding: 0 20px;
+        }
+
+        .section h2 {
+            text-align: center;
+            color: #1a237e;
+            font-size: 30px;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #448aff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .service-item {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .service-item img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .about-image img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">TechCorp</a>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#services">服务</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>引领科技，驱动未来</h1>
+        <p>我们致力于提供最前沿的解决方案，助您的业务实现数字化转型。</p>
+        <a href="#services" class="cta-button">了解我们的服务</a>
+    </section>
+
+    <section id="services" class="section">
+        <h2>核心技术服务</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <img src="https://picsum.photos/id/10/400/200" alt="云计算"> 
+                <h3>云计算与AI</h3>
+                <p>安全、弹性、高效的云服务和智能AI解决方案。</p>
+            </div>
+            <div class="service-item">
+                <img src="https://picsum.photos/id/20/400/200" alt="软件开发">
+                <h3>定制化软件开发</h3>
+                <p>从概念到部署，为您量身打造行业领先的软件应用。</p>
+            </div>
+            <div class="service-item">
+                <img src="https://picsum.photos/id/30/400/200" alt="数据安全">
+                <h3>网络与数据安全</h3>
+                <p>全方位的网络安全防御体系，保护您的关键数据资产。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>关于我们</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>我们是一家充满创新精神的科技公司，由一群对技术充满热情的专家创立。自成立以来，我们始终坚持以客户为中心，用技术创新解决商业难题，致力于成为行业领先的数字化伙伴。</p>
+                <p>我们的使命是利用先进的技术，为全球企业创造持续的价值。</p>
+            </div>
+            <div class="about-image">
+                <img src="https://picsum.photos/id/60/500/350" alt="团队工作">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>联系我们</h2>
+        <p style="text-align: center;">如有任何疑问或合作意向，请随时通过以下方式联系我们：</p>
+        <p style="text-align: center; font-size: 18px; font-weight: bold;">邮箱：contact@techcorp.com | 电话：(123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TechCorp. 保留所有权利。</p>
+        <p>地址：全球科技创新中心</p>
+    </footer>
+
+</body>
+</html>
